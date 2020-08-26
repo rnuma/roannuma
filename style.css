@@ -1,0 +1,233 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #fff;
+  }
+  
+  .navbar {
+    background: #222;
+    
+  }
+
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  
+  .nav-link:hover {
+    color: #000;
+  }
+  
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+
+  .header0 {
+    background-image: url('Roan-Microsoft.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 50%;
+    min-width: 50%;
+  }
+
+  .header1 {
+    background-image: url('ProjectPicture.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 50%;
+    min-width: 50%;
+  }
+
+  .header2 {
+    background-image: url('ContactPicture.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 50%;
+    min-width: 50%;
+  }
+
+  .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  
+  .description h1 {
+    color:#fff;
+    left: 49%;
+    position: absolute;
+    top: 49%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 60px; 
+  }
+
+
+  .TextBox {
+    margin: 4em auto;
+    padding: 4em;
+    position: relative;
+    max-height: auto ;
+    background-color: lightgray;
+  }
+
+
+  .Headshot {
+    margin: 4em auto;
+    padding: 2.5em;
+    padding-left: 2.5em;
+    position: relative;
+  }
+
+
+  .AboutMeText {
+    margin: 6em auto;
+    padding: 2.5em;
+    padding-right: 0em;
+    padding-left: 4.6em;
+    width: 35%;
+    position: relative;
+    
+  }
+
+
+  .PurdueArch {
+    margin: 4em auto;
+    padding: 0.5em;
+    padding-right: 6em ;
+    position: relative;
+  }
+
+
+  .CodePath {
+    margin: 4em auto;
+    padding: 2.5em;
+    padding-left: 2.5em;
+    position: relative;
+  }
+  
+
+  .TechnicalSkills {
+    margin: 4em auto;
+    padding: 2.5em;
+    padding-left: 2.5em;
+    position: relative;
+  }
+
+  
+  .NSBElogo {
+    margin: 4em auto;
+    padding: 0.5em;
+    padding-right: 6em ;
+    position: relative;
+  }
+
+
+  .AfricanMap {
+    margin: 4em auto;
+    padding: 2.5em;
+    padding-left: 2.5em;
+    position: relative;
+  }
+
+
+  .PurdueGrandPrix {
+    margin: 4em auto;
+    padding: 2.5em;
+    padding-left: 2.5em;
+    position: relative;
+  }
+
+
+  .HonorsAndAwards {
+    margin: 4em auto;
+    padding: 2.5em;
+    position: relative;
+    background-color: lightgray;
+  }
+  
+
+  .HonorsAndAwards-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+
+  .Website {
+    margin: 4em auto;
+    padding: 2.5em;
+    padding-left: 2.5em;
+    position: relative;
+  }
+
+
+  .CollegeDegreeTracker {
+    margin: 4em auto;
+    padding: 2.5em;
+    padding-left: 2.5em;
+    position: relative;
+  }
+
+
+  .Covid19Website {
+    margin: 4em auto;
+    padding: 2.5em;
+    padding-left: 2.5em;
+    position: relative;
+  }
+
+
+
+  .Soteria {
+    margin: 4em auto;
+    padding: 2.5em;
+    padding-left: 2.5em;
+    position: relative;
+  }
+
+
+  .EPICSPurdue {
+    margin: 4em auto;
+    padding: 2.5em;
+    padding-left: 2.5em;
+    position: relative;
+  }
+
+
+  .PythonProject{
+    margin: 4em auto;
+    padding: 2.5em;
+    padding-left: 2.5em;
+    position: relative;
+  }
+
+
+   .page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 0px 0 10px;
+  }
+
+
+  .footer-message {
+    color: #666;
+    padding: 0px 0;
+  }   
+
+  
+  
