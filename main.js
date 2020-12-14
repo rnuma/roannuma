@@ -12,6 +12,11 @@ $(document).ready(function(){
     $('.header2').height($(window).height());
   })
 
+
+  $(document).ready(function(){
+    $('.header3').height($(window).height());
+  })
+
   
   $(document).ready(function(){
     $('[data-toggle="popover"]').popover(); 
