@@ -68,7 +68,7 @@
             </li>
     
             <li class="nav-item">
-                <a class="nav-link" href="https://drive.google.com/file/d/1BhOFWj3lH0FVHM2WrbD2IRAUdeN3Hu73/view?usp=sharing" 
+                <a class="nav-link" href="https://drive.google.com/file/d/1KGuYneUZujJtm9alJRRV0OJifpqXV-EH/view?usp=sharing" 
                 target="_blank">Resume</a>
               </li>
     
@@ -96,7 +96,7 @@
 
     <div class="col-lg-5 col-md-4 col-sm-10 mb-0 IntelLogo">
         
-        <img src="IntelLogo.jpg" alt="Intel" width="565" height="400">
+        <img src="IntelLogo.jpg" alt="Intel" width="565" height="320">
 
     </div>
 
@@ -108,32 +108,57 @@
             <h6 class="feature-title text-black text-center">August 2021 - December 2021</h6>
         <hr></hr>
        
-    <p class = "feature-title text-black text-center span" >For my Intel internship, I'm currently working on next gen SoC projects alongside the 
-      technical PM group of the SoC Design team that collaborates with IP development teams. My tasks include: developing a new workmodel to run quality 
-      checking flows on IPs and catch bugs/issues sooner (tools/other: RTL, VCLP, Unix, SpyglassLP, UPF), and writing software (languages/frameworks: 
-      JavaScript, Vue.js, Node.js) for the design infrastructure to help manage the data/execution of projects.
+    <p class = "feature-title text-black text-center span" >
+    For my first project during my Intel internship, I helped design the initial stages of an Intellectual Property (IP) Model Workflow needed to achieve 
+    a standalone VCLP run on Intel IPs. With the guidance of SoC Engineers on my team, I was able to debug log files/errors from an Intel IP using linux and 
+    use the VCLP tool (used for checking design quality) to run static checks on the IP we were working with.
     </p>
 
-  </br>
+  </p>
 
+</br>
   <div class="row d-flex justify-content-center" >
-
+  
     <p class="text-left">
         <a class="btn btn-secondary btn-space" type = "button" data-toggle="collapse" data-target="#Button3" 
-        aria-expanded="false" aria-controls="Button3">
-          Devices Development Group (DDG)
+        aria-expanded="false" aria-controls="#Button3">
+          Read more
         </a>
 
-       
+      
       <div class="collapse" id="Button3">
         <div class="card card-body">
 
-          <p>The Devices Development Group (DDG) is a global organization focused on the development and integration 
-            of SOCs, critical IPs including Atom and chipsets that power Intel's leadership products. This business 
-            group leverages an incomparable mix of experts with different backgrounds, cultures, perspectives, and 
-            experiences to unleash the most innovative, amazing, and exciting computing experiences.
+          <p> In addition, I wrote up a Best-Known Method (BKM) that has instructions for setting up a front-end design environment 
+            and running VCLP tool flow to generate a VCLP run on a partition. This document will be referenced by Intel SoC Engineers 
+            for future development in their designs. 
           </p>
 
+          <p></p>
+
+          <p>My second project during my Intel internship involved me learning the Jest testing framework to develop test suites 
+            containing 80+ unit tests along with 200+ test cases for utility functions that support Intel’s IP Summary Dashboard. 
+            This dashboard is a web-based application with information (bugs, features, and more) on SoCs/IPs from 15+ IPO projects. 
+            I also wrote function modules in JavaScript to improve the web infrastructure for Intel’s IPO dashboard that can track/file 
+            1,000+ SoC tickets during project execution.
+          </p>
+
+        </br>
+          <p class ="text-center">Click <u><a href="https://www.synopsys.com/verification/static-and-formal-verification/vc-lp.html" target="_blank" 
+            class="text-dark">here</a></u> to learn more about the VCLP tool, and <u><a href="https://www.intel.com/content/www/us/en/developer/topic-technology/fpga-academic/materials-ip-cores.html" target="_blank" 
+            class="text-dark"> here</a></u> for information on Intel's Intellectual Property (IP) Cores.
+            
+             
+            
+          </p>
+
+            <p></p>
+
+        </div>
+       </div>
+      </p>
+    </div>
+    
         </div>
        </div>
       </p>
@@ -159,13 +184,47 @@
             <p></p>
             <h6 class="feature-title text-black text-center">May 2021 - August 2021</h6>
         <hr></hr>
-        <p class = "feature-title text-black text-center span" > For my Qualcomm internship, I developed a productivity tool to 
-          help engineers on the Audio DSP team identify steady-state code from transient-state code found in C files, which is 
-          moved and run in “island” files for low power memory use. The tool significantly reduces time for analyzing log data 
-          generated from test cases of audio use cases (ex: “Hey Snapdragon”, voice wake-up, etc.) and improves island memory. 
-          All code for the tool was written in Python. I utilized C, Linux, Qualcomm Hexagon (QDSP6) tools and a Hexagon simulation 
-          framework to complete the project.
+        <p class = "feature-title text-black text-center span" > For my project during my Qualcomm internship, I developed a python-based parser tool
+          that can obtain the run time memory footprint of an audio use case. I learned how to use Qualcomm Hexagon (QDSP6) development 
+          tools within a linux environment to decrypt memory trace generated from test cases of audio use cases (calls, music, voice commands, etc.). 
+          This was all done using a hexagon simulation framework. 
+        </p>
+
+    </br>
+
+  <div class="row d-flex justify-content-center" >
+  
+    <p class="text-left">
+        <a class="btn btn-secondary btn-space" type = "button" data-toggle="collapse" data-target="#Button2" 
+        aria-expanded="false" aria-controls="#Button2">
+          Read more
+        </a>
+
+      <div class="collapse" id="Button2">
+        <div class="card card-body">
+
+          <p> I further developed the parser tool to process through 150M+ lines of memory trace based on user arguments and produce 
+            a text file that engineers can use to differentiate between steady-state vs. transient-state functions found in C files. The text 
+            file produced will also enable Qualcomm Engineers to identify steady-state functions that need to be run in “island” 
+            files for low power memory use. This will reduce time for the Audio DSP team to analyze memory trace and help improve island file memory. 
+          </p>
+
+
+        </br>
+          <p class ="text-center">Click <u><a href="https://developer.qualcomm.com/qualcomm-robotics-rb5-kit/software-reference-manual/audio" target="_blank" 
+            class="text-dark">here</a></u> to learn more about the Audio DSP (ADSP), and <u><a href="https://www.qualcomm.com/products/audio" target="_blank" 
+            class="text-dark"> here</a></u> to see Qualcomm's Audio Products.
+            
+             
+            
+          </p>
+
+            <p></p>
+
+        </div>
+       </div>
       </p>
+    </div>
   
   </div>
   
