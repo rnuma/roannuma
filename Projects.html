@@ -34,7 +34,7 @@
 
     <nav class="navbar navbar-expand-md fixed-top">
 
-        <a class="navbar-brand text-white">Roan Numa</a>
+        <a class="navbar-brand text-white">Personal Webiste | Roan Numa</a>
     
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
           <span class="navbar-toggler-icon"></span>
@@ -68,7 +68,7 @@
             </li>
   
             <li class="nav-item">
-              <a class="nav-link" href="https://drive.google.com/file/d/1U7Qk_2hUTK3UjQ8wujl8ZYEGMOLwBnSW/view?usp=sharing" 
+              <a class="nav-link" href="https://drive.google.com/file/d/1W_irBtlg3BntKZ60JjyWI8n5kbFOfUF8/view?usp=sharing" 
               target="_blank">Resume</a>
             </li>
     
@@ -96,6 +96,83 @@
         </div>
   
   </header>
+
+
+</div>
+
+
+
+<div class="row justify-content-between">
+
+    <div class="col-lg-5 col-md-4 col-sm-10 mb-0 TextBox">
+        <h4 class="feature-title text-black text-center">Smart Bicycle Brake System 🚲</h4>
+        <p></p>
+        <h5 class="feature-title text-black text-center">Senior Design Project</h5>
+        <p></p>
+        <h6 class="feature-title text-black text-center">August 2023 - Present</h6>
+        <hr></hr>
+    <p class = "feature-title text-black span" >
+      <h5>Project Overview</h5>
+        For my Senior Design project, I'm working in a team of 3 to build a smart bicycle brake system that aims to address the critical issue of 
+        bike accidents and injuries that result from improper/premature braking in high-stress situations. Our smart bicycle brake system will be integrated
+        into a pre-existing bicycle brake system and maintain the bicycle's original braking system. My responsibilities on the team include programming our
+        system's MCU and handling all financial purchasing for parts and orders.
+    </p>
+
+  </br>
+
+
+
+    <div class="row d-flex justify-content-center" >
+  
+      <p class="text-left">
+          <a class="btn btn-secondary btn-space" type = "button" data-toggle="collapse" data-target="#Button4" 
+          aria-expanded="false" aria-controls="#Button4">
+            Read more
+          </a>
+
+        <div class="collapse" id="Button4">
+          <div class="card card-body">
+
+            <p class = "feature-title text-black span" >
+              <h5>System Components & Features</h5>
+              Our system consists of a TF-luna LiDAR range sensor and caution LED for object proximity detection within 0-5 meters, two 25kg high torque servo motors for 
+              front and rear braking, a variable brake lever to control servo motors, a gyroscopic incline sensor to control front or rear braking during incline or decline travel,
+              and an ESP32 MCU to program the system together using python (in arduino) and I2C, UART, ADC, PWM communication. The entire system is powered by a 20V ion lithium battery, 
+              with LM2596 DC-DC buck converters supplying 3.3V and 6.8V to the ESP32 MCU, and brake lever and servo motors respectively; an LM317 voltage regulator powers 5V to both the 
+              LiDAR sensor and gyroscopic sensor. The system can be powered off using the on-off switch connected to the battery. Our team was able to integrate our system sensors, MCU, 
+              and power together on a singular PCB.
+          </p>
+      
+          
+          <p class = "feature-title text-black span" >
+            <h5>How to use the Smart Bicycle Brake System</h5>
+            While the user is riding the smart bicycle, braking of the servo motors can be controlled using the variable brake lever. If the LiDAR sensor detects an object
+            within 3-5 meters, the caution LED will light on to warn the user of a close object. If the LiDAR sensor detects an object within 3 meters, the servo motors will
+            activate braking and pulsate 5 times to help prevent an oncoming collision. The servo motors will remain in braking position while within 3 meters of an object and 
+            will only release once out of range. If the LiDAR sensor detects an object within 3 meters and the user is traveling on a decline path of 0 degrees or less, the
+            gyroscopic sensor will activate braking for only the rear servo motor. For an incline path of 30 degrees or more, the gyroscopic sensor will activate braking for only
+            the front servo motor. This incline/decline braking feature helps prevent the user from losing control of the smart bike while braking during incline/decline travel. 
+          </p>
+      
+          <p class = "feature-title text-black span" >
+            <h5>Current Project Status</h5>
+            Our team is currently finalizing our brake system design for final demos. We plan to 3D design and print a protective case for the PCB and add final touches to the overall system.
+          </p>
+  
+          </div>
+         </div>
+        </p>
+      </div>
+    </div>
+  
+    <div class="col-lg-5 col-md-4 col-sm-10 mb-0 Website">
+        
+      <img src="Smart_Bike_System.jpg" alt="Website" width="480" height="570">
+    
+    </div>
+
+</div>
   
 
 
@@ -109,14 +186,18 @@
         <h6 class="feature-title text-black text-center">January 2021 - Present</h6>
         <hr></hr>
        
-    <p class = "feature-title text-black span" >"The goal of Purdue SoCET is to provide students hands-on experience with a fully developed industry quality SoC design flow. 
+    <p class = "feature-title text-black span" >
+      <h5>Team Goal</h5>
+      "The goal of Purdue SoCET is to provide students hands-on experience with a fully developed industry quality SoC design flow. 
       Members of the group engage with RTL design, physical design, PCB design, chip bringup, verification methods, an array of EDA tools 
       and software development. Through SoCET, a student can engage with the entire life cycle if a chip design."
   
     </p>
 
-    <p class = "feature-title text-black span"> During the Spring 2021 semester, I joined the Software Design team for Purdue SoCET.
-      Together, we researched rust and embedded rust programming fundamentals to understand how to add rust support for the AFTx06 SoC. 
+    <p class = "feature-title text-black span"> 
+      <h5>Software Design Team</h5>
+      During the Spring 2021 semester, I joined the Software Design team for Purdue SoCET. Together, we researched rust and embedded 
+      rust programming fundamentals to understand how to add rust support for the AFTx06 SoC. 
     </p>
   
   </br>
@@ -140,10 +221,29 @@
   
               <p> </p>
   
-              <p>For the Spring 2022 semester, I will be working closely with the PCB design team to test and debug a PCB for the AFTx04 SoC. This PCB will will enable for fast 
-                verification of self-test procedure/simple tests ran on the AFTx04 and allow for easy interfacing with other circuits. I'm currently learning KiCad and soldering to 
-                better understand the design of our PCB, and potentially add more components. Our team will be utilizing electronic lab equipment to conduct incremental testing 
+              <p>
+                <h5>PCB Design Team</h5>
+                For the Spring 2022 semester, I worked closely with the PCB design team to test and debug a PCB for the AFTx04 SoC. This PCB enables fast 
+                verification of self-test procedure/simple tests ran on the AFTx04 and allows for easy interfacing with other circuits. I'm learned KiCad and soldering techniques to 
+                better understand the design of our PCB, and add more components. Our team utilized electronic lab equipment to conduct incremental testing 
                 for various electronic components on the PCB board.
+              </p>
+
+              <p>
+                <h5>Test Engineering Team</h5>
+                For the Fall 2023 semester, I'm working closely with the Test Engineering team, a team new to SoCET this semester. The goal of the test engineering team is to
+                 apply Design for Test (DFT) into the design process for different logic circuits. VLSI has a very huge need for increased reliability and testability. With our
+                 semester-long project, we can demonstrate the application of DFT to digital logic circuits and how it can be used to improve reliability and testability of digital 
+                 circuits. Our project involves following the DFT process, which includes:
+
+                  <ol type="1">
+                      <p><li>Inserting scan inserted muxed-D flip-flops to replace the original flip flops.</li></p>
+                      <p><li>Performing Automated Test Pattern Generation (ATPG) on scan inserted netlist to create reports indicating test quality and test application time.</li></p>
+                  </ol>
+                
+                 Our team uses the Genus tool from Cadence and the TestMax tool from Synopsys to implement scan insertion. ATPG on a scan inserted netlist is done using the Modus 
+                 tool or TestMax tool. For our future work, we will be implementing DFT for the AFTx08 (the next System-on-Chip tapeout by Purdue SoCET) and enhancing the overall 
+                 efficiency, reliability and testability of the tapeout process.
               </p>
   
             </br>
@@ -419,16 +519,18 @@
       <h6 class="feature-title text-black text-center">August 2019 - May 2020</h6>
       <hr></hr>
      
-  <p class = "feature-title text-black span" >Throughout my freshman year here at Purdue University, I was part of the Purdue EPICS 
-    (Engineering Projects in Service) program. I teamed up with VETS (Technology Assisting Veterans), a team that focuses on developing 
-    mobile impairment technologies for veterans in the surrounding community. Within VETS I was a part of two sub-teams, Operation Row and 
-    Operation Swim, where we helped design a prosthetic arm device for a veteran named Jared Bullock and a floatation and entry & egress device 
-    for a 12 year-old boy named Charlie. Jared was wounded during a mission and lost his right limb, which affected his gym training. 
-    Our prosthetic arm device would connect Jared to a seated row machine and allow him to perform a rowing exercise safely and properly. 
-    Charlie has a condition known as cerebral palsy which makes it hard for him to have fun in the pool. So our team 
-    partnered with the Grant House Foundation in West Lafayette, Indiana to help create a floatation device (similar to a life jacket) that 
-    would provide Charlie the support he needs to enjoy his time safely in the pool.
+  <p class = "feature-title text-black span" >
+    <h5>Team Overview</h5>
+    Throughout my freshman year here at Purdue University, I was part of the Purdue EPICS (Engineering Projects in Service) program. I teamed up with 
+    VETS (Technology Assisting Veterans), a team that focuses on developing mobile impairment technologies for veterans in the surrounding community. 
+    Within VETS I was a part of two sub-teams, Operation Row and Operation Swim.
+  </p>
 
+  
+  <p class = "feature-title text-black span" >
+    <h5>Operation Row</h5>
+    For Operation Row, we designed a prosthetic arm device for a veteran named Jared Bullock. Jared was wounded during a mission and lost his right 
+    limb, which affected his gym training. Our prosthetic arm device would connect Jared to a seated row machine and allow him to perform a rowing exercise safely and properly. 
   </p>
 
 </br>
@@ -445,7 +547,16 @@
       <div class="collapse" id="Button2">
         <div class="card card-body">
 
-          <p>For Operation Row, I helped with the outer design of the arm socket device by smoothing out the edges with sanding tools and cutting out 
+          <p class = "feature-title text-black span" >
+            <h5>Operation Swim</h5>
+            For Operation Swim, we designed a floatation and entry & egress device for a 12 year-old boy named Charlie. Charlie has a condition 
+            known as cerebral palsy which makes it hard for him to have fun in the pool. So our team partnered with the Grant House Foundation in West Lafayette, 
+            Indiana to help create a floatation device (similar to a life jacket) that would provide Charlie the support he needs to enjoy his time safely in the pool.
+          </p>
+
+          <p>
+            <h5>Project Contributions</h5>
+            For Operation Row, I helped with the outer design of the arm socket device by smoothing out the edges with sanding tools and cutting out 
             the socket holes using the dremel tool. I also assisted with the evaluation and research of our design methods and helped eliminate the design 
             flaws of the vest that would attach to Jared and connect with the socket device. For Operation Swim, I contributed to the preliminary design of 
             the ADA regulated entry & egress device and focused on the failure analysis of the design and effects of device failure by using severity guidelines 
@@ -454,14 +565,18 @@
 
             <p> </p>
 
-            <p>In addition my to personal contributions, I also served as the Webmaster / Communication Officer for the VETS team. I reconstructed and managed our 
+            <p>
+              <h5>Webmaster/Communication Officer Role</h5>
+              In addition my to personal contributions, I also served as the Webmaster / Communication Officer for the VETS team. I reconstructed and managed our 
               team’s website, shared team and project updates with the EPICS community via Twitter, and was in charge of the team-recruiting efforts by creating physical 
               and virtual recruitment team flyers for prospective EPICS students. 
             </p>
 
             <p></p>
 
-            <p>I took away so much from being a part of VETS in my freshman year. I learned how to properly collaborate and communicate within a team and understood how engineers 
+            <p>
+              <h5>Takeaways from EPICS</h5>
+              I took away so much from being a part of VETS in my freshman year. I learned how to properly collaborate and communicate within a team and understood how engineers 
               work towards designing solutions to specific problems that involve connecting an individual to a specific product. Thanks my experience with VETS, I am more 
               confident when it comes working within an engineering team and following a design process towards an efficient solution.
             </p>
