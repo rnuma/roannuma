@@ -109,7 +109,7 @@
         <p></p>
         <h5 class="feature-title text-black text-center">Senior Design Project</h5>
         <p></p>
-        <h6 class="feature-title text-black text-center">August 2023 - Present</h6>
+        <h6 class="feature-title text-black text-center">August 2023 - December 2023</h6>
         <hr></hr>
     <p class = "feature-title text-black span" >
       <h5>Project Overview</h5>
@@ -138,17 +138,16 @@
               <h5>System Components & Features</h5>
               Our system consists of a TF-luna LiDAR range sensor and caution LED for object proximity detection within 0-5 meters, two 25kg high torque servo motors for 
               front and rear braking, a variable brake lever to control servo motors, a gyroscopic incline sensor to control front or rear braking during incline or decline travel,
-              and an ESP32 MCU to program the system together using python (in arduino) and I2C, UART, ADC, PWM communication. The entire system is powered by a 20V ion lithium battery, 
-              with LM2596 DC-DC buck converters supplying 3.3V and 6.8V to the ESP32 MCU, and brake lever and servo motors respectively; an LM317 voltage regulator powers 5V to both the 
-              LiDAR sensor and gyroscopic sensor. The system can be powered off using the on-off switch connected to the battery. Our team was able to integrate our system sensors, MCU, 
+              and an ESP32 MCU to program the system together using Embedded C and an arduino IDE and I2C, UART, ADC, PWM communication. The entire system is powered by a 20V ion lithium battery, 
+              with LM2596 DC-DC buck converters supplying 5V to the LiDAR sensor and gyroscopic sensor, and 6.8V to the brake lever and servo motors; an AMS1117-3.3 voltage regulator 
+              powers 3.3V to the ESP32 MCU. The system can be powered off using the on-off switch connected to the battery. Our team was able to integrate our system sensors, MCU, 
               and power together on a singular PCB.
           </p>
       
-          
           <p class = "feature-title text-black span" >
             <h5>How to use the Smart Bicycle Brake System</h5>
             While the user is riding the smart bicycle, braking of the servo motors can be controlled using the variable brake lever. If the LiDAR sensor detects an object
-            within 3-5 meters, the caution LED will light on to warn the user of a close object. If the LiDAR sensor detects an object within 3 meters, the servo motors will
+            within 3-6 meters, the caution LED will light on to warn the user of a close object. If the LiDAR sensor detects an object within 3 meters, the servo motors will
             activate braking and pulsate 5 times to help prevent an oncoming collision. The servo motors will remain in braking position while within 3 meters of an object and 
             will only release once out of range. If the LiDAR sensor detects an object within 3 meters and the user is traveling on a decline path of 0 degrees or less, the
             gyroscopic sensor will activate braking for only the rear servo motor. For an incline path of 30 degrees or more, the gyroscopic sensor will activate braking for only
@@ -157,7 +156,8 @@
       
           <p class = "feature-title text-black span" >
             <h5>Current Project Status</h5>
-            Our team is currently finalizing our brake system design for final demos. We plan to 3D design and print a protective case for the PCB and add final touches to the overall system.
+            Our team has finalized the brake system design for final demonstrations. We plan to showcase our project in the Purdue Spark Challenge, a corporate-sponsored design 
+            competition hosted by the Elmore Family School of Electrical and Computer Engineering in partnership with the ECE Student Society.
           </p>
   
           </div>
@@ -218,8 +218,7 @@
               For a fun demo project, we wrote a gaming program (similar to snake) using rust and a HiFive1 Rev B board. We hope that our findings from this semester will help 
               future teams that develop software (similar to Rust) for future chip designs.
             </p>
-  
-              <p> </p>
+
   
               <p>
                 <h5>PCB Design Team</h5>
